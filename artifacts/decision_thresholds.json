@@ -1,0 +1,20 @@
+{
+  "approve_max_prob": 0.115,
+  "reject_min_prob": 0.2,
+  "assumptions": {
+    "lgd": 0.65,
+    "hurdle_margin": 0.03,
+    "base_apr": 0.1,
+    "risk_premium_slope": 0.55,
+    "max_apr": 0.32,
+    "max_acceptable_pd": 0.2,
+    "cost_false_approval_per_unit_ead": 0.65,
+    "cost_false_rejection_per_unit_ead": 0.08
+  },
+  "cost_minimizing_reference_threshold": 0.1,
+  "expected_population_split": {
+    "approve": 0.8603,
+    "manual_review": 0.0476,
+    "reject": 0.0921
+  }
+}

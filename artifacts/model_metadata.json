@@ -1,0 +1,57 @@
+{
+  "features": [
+    "age",
+    "annual_income",
+    "RevolvingUtilizationOfUnsecuredLines",
+    "DebtRatio",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfDependents",
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTimes90DaysLate",
+    "NumberOfTime60-89DaysPastDueNotWorse",
+    "total_past_due_events",
+    "has_any_past_due",
+    "MonthlyIncome_was_missing",
+    "NumberOfDependents_was_missing"
+  ],
+  "friendly_names": {
+    "age": "Age",
+    "annual_income": "Annual income",
+    "RevolvingUtilizationOfUnsecuredLines": "Credit utilization ratio",
+    "DebtRatio": "Debt-to-income ratio",
+    "NumberOfOpenCreditLinesAndLoans": "Number of open credit lines/loans",
+    "NumberRealEstateLoansOrLines": "Number of real-estate loans/lines",
+    "NumberOfDependents": "Number of dependents",
+    "NumberOfTime30-59DaysPastDueNotWorse": "Times 30-59 days past due",
+    "NumberOfTimes90DaysLate": "Times 90+ days late",
+    "NumberOfTime60-89DaysPastDueNotWorse": "Times 60-89 days past due",
+    "total_past_due_events": "Total past-due events",
+    "has_any_past_due": "Any past-due history",
+    "MonthlyIncome_was_missing": "Income was unreported",
+    "NumberOfDependents_was_missing": "Dependents was unreported"
+  },
+  "target": "SeriousDlqin2yrs",
+  "scorecard": {
+    "pdo": 20,
+    "base_score": 600,
+    "base_odds": 50,
+    "factor": 28.85390081777927,
+    "offset": 487.1228762045055
+  },
+  "cv_metrics": {
+    "auc_mean": 0.866515714271596,
+    "auc_std": 0.0036989587563330643,
+    "pr_auc_mean": 0.4032280598041288,
+    "pr_auc_std": 0.010786810881122325,
+    "brier_mean": 0.048862780630588534,
+    "brier_std": 0.000520230742137718
+  },
+  "test_metrics": {
+    "roc_auc": 0.8701,
+    "pr_auc": 0.4094,
+    "brier_before_calibration": 0.0486,
+    "brier_after_calibration": 0.0485,
+    "test_default_rate": 0.0668
+  }
+}
