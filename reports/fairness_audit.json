@@ -1,0 +1,49 @@
+{
+  "protected_attribute": "age",
+  "groups": {
+    "18-24": {
+      "n": 381,
+      "approval_rate": 0.7743,
+      "manual_review_rate": 0.0656,
+      "reject_rate": 0.1601,
+      "actual_default_rate": 0.1286
+    },
+    "25-39": {
+      "n": 5987,
+      "approval_rate": 0.757,
+      "manual_review_rate": 0.0807,
+      "reject_rate": 0.1624,
+      "actual_default_rate": 0.1101
+    },
+    "40-61": {
+      "n": 15320,
+      "approval_rate": 0.8512,
+      "manual_review_rate": 0.0506,
+      "reject_rate": 0.0982,
+      "actual_default_rate": 0.071
+    },
+    "62+": {
+      "n": 8312,
+      "approval_rate": 0.9552,
+      "manual_review_rate": 0.0176,
+      "reject_rate": 0.0272,
+      "actual_default_rate": 0.0253
+    }
+  },
+  "four_fifths_ratios": {
+    "18-24": 0.8106,
+    "25-39": 0.7924,
+    "40-61": 0.8911,
+    "62+": 1.0
+  },
+  "four_fifths_flagged_groups": [
+    "25-39"
+  ],
+  "auc_by_group": {
+    "18-24": 0.814,
+    "25-39": 0.848,
+    "40-61": 0.8566,
+    "62+": 0.8645
+  },
+  "auc_spread_across_groups": 0.0505
+}

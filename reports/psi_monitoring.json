@@ -1,0 +1,42 @@
+{
+  "feature_psi": {
+    "age": {
+      "psi": 0.0001,
+      "status": "stable"
+    },
+    "annual_income": {
+      "psi": 0.0004,
+      "status": "stable"
+    },
+    "RevolvingUtilizationOfUnsecuredLines": {
+      "psi": 0.0002,
+      "status": "stable"
+    },
+    "DebtRatio": {
+      "psi": 0.0002,
+      "status": "stable"
+    },
+    "NumberOfOpenCreditLinesAndLoans": {
+      "psi": 0.0002,
+      "status": "stable"
+    },
+    "total_past_due_events": {
+      "psi": 0.0,
+      "status": "stable"
+    }
+  },
+  "score_psi": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "simulated_drift_example": {
+    "age": {
+      "psi": 0.7033,
+      "status": "significant shift \u2014 review model"
+    },
+    "RevolvingUtilizationOfUnsecuredLines": {
+      "psi": 0.1967,
+      "status": "moderate shift \u2014 investigate"
+    }
+  }
+}
